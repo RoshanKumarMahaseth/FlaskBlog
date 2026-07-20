@@ -1,22 +1,28 @@
 # Flask Blog
 
-A beginner-friendly blog application built with Python and Flask as part of my backend development learning journey.
+A beginner-friendly blog application built with Python and Flask as part of my backend development learning journey. This project demonstrates authentication, database integration, and Flask best practices.
 
 ## Features
 
-- Home page
-- About page
-- User Registration Form
-- User Login Form
-- Form validation using Flask-WTF
-- Flash messages
-- Clean Flask project structure
+- Home Page
+- About Page
+- User Registration
+- User Login & Logout
+- Form Validation using Flask-WTF
+- Password Hashing with Flask-Bcrypt
+- User Authentication
+- Flash Messages
+- SQLite Database with SQLAlchemy
+- Clean Flask Project Structure
 
 ## Tech Stack
 
 - Python
 - Flask
 - Flask-WTF
+- Flask-Bcrypt
+- Flask-SQLAlchemy
+- SQLite
 - HTML
 - CSS
 
@@ -27,8 +33,11 @@ flaskblog/
 ├── static/
 ├── templates/
 ├── forms.py
+├── models.py
 ├── routes.py
 ├── __init__.py
+├── instance/
+│   └── site.db
 └── run.py
 ```
 
@@ -37,16 +46,16 @@ flaskblog/
 1. Clone the repository
 
 ```bash
-git clone <your-github-repository-link>
+git clone https://github.com/RoshanKumarMahaseth/FlaskBlog.git
 ```
 
-2. Go to the project folder
+2. Navigate to the project directory
 
 ```bash
-cd <repository-name>
+cd FlaskBlog
 ```
 
-3. Install the required packages
+3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -64,20 +73,16 @@ python run.py
 http://127.0.0.1:5000
 ```
 
-## Planned Features
+## Future Improvements
 
-- SQLAlchemy Database Integration
-- SQLite Database
-- User Authentication
-- Password Hashing with Flask-Bcrypt
-- Login & Logout System
-- User Profiles
-- Create, Update & Delete Posts (CRUD)
-- Profile Picture Upload
-- Password Reset
+- User Profile Pictures
+- Create, Update & Delete Blog Posts (CRUD)
+- Password Reset via Email
 - Flask-Migrate
 - Pagination
+- REST API
+- Deployment
 
 ## Learning Purpose
 
-This project is being built while learning Flask. New features will be added as I progress through topics like SQLAlchemy, Flask-Bcrypt, authentication, and database relationships.
+This project is part of my backend development journey with Flask. It is continuously updated as I learn new concepts such as authentication, databases, ORM, and web application development.
