@@ -1,88 +1,118 @@
 # Flask Blog
 
-A beginner-friendly blog application built with Python and Flask as part of my backend development learning journey. This project demonstrates authentication, database integration, and Flask best practices.
+A beginner-friendly blog application built with **Python** and **Flask** as part of my backend development learning journey. This project demonstrates user authentication, database integration, and Flask best practices while following the Flask tutorial series by Corey Schafer.
+
+---
 
 ## Features
 
 - Home Page
 - About Page
 - User Registration
-- User Login & Logout
-- Form Validation using Flask-WTF
-- Password Hashing with Flask-Bcrypt
+- Secure User Login
+- User Logout
+- User Account Page
 - User Authentication
+- Password Hashing with Flask-Bcrypt
+- Form Validation using Flask-WTF
 - Flash Messages
-- SQLite Database with SQLAlchemy
+- SQLite Database Integration
+- SQLAlchemy ORM
 - Clean Flask Project Structure
+
+---
 
 ## Tech Stack
 
 - Python
 - Flask
 - Flask-WTF
-- Flask-Bcrypt
 - Flask-SQLAlchemy
+- Flask-Bcrypt
 - SQLite
 - HTML
 - CSS
 
+---
+
 ## Project Structure
 
 ```
-flaskblog/
-├── static/
-├── templates/
-├── forms.py
-├── models.py
-├── routes.py
-├── __init__.py
+FlaskBlog/
+│
+├── flaskblog/
+│   ├── static/
+│   ├── templates/
+│   ├── forms.py
+│   ├── models.py
+│   ├── routes.py
+│   └── __init__.py
+│
 ├── instance/
 │   └── site.db
-└── run.py
+│
+├── run.py
+├── README.md
+└── requirements.txt
 ```
+
+---
 
 ## Installation
 
-1. Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/RoshanKumarMahaseth/FlaskBlog.git
 ```
 
-2. Navigate to the project directory
+Navigate to the project:
 
 ```bash
 cd FlaskBlog
 ```
 
-3. Install dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the application
+Run the application:
 
 ```bash
 python run.py
 ```
 
-5. Open your browser and visit
+Open your browser and visit:
 
 ```
 http://127.0.0.1:5000
 ```
 
+---
+
 ## Future Improvements
 
-- User Profile Pictures
-- Create, Update & Delete Blog Posts (CRUD)
+- Upload Profile Picture
+- Create Blog Posts
+- Update Blog Posts
+- Delete Blog Posts
 - Password Reset via Email
-- Flask-Migrate
 - Pagination
-- REST API
-- Deployment
+- User Authorization
+- Deploy the Application
+
+---
 
 ## Learning Purpose
 
-This project is part of my backend development journey with Flask. It is continuously updated as I learn new concepts such as authentication, databases, ORM, and web application development.
+This project is part of my backend development journey with Flask. It is continuously updated as I learn new backend concepts such as authentication, databases, ORM, authorization, deployment, and REST APIs.
+
+---
+
+## Author
+
+**Roshan Kumar Mahaseth**
+
+GitHub: https://github.com/RoshanKumarMahaseth
