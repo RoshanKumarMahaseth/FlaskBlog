@@ -12,6 +12,8 @@ A beginner-friendly blog application built with **Python** and **Flask** as part
 - Secure User Login
 - User Logout
 - User Account Page
+- Update Username
+- Update Email Address
 - User Authentication
 - Password Hashing with Flask-Bcrypt
 - Form Validation using Flask-WTF
@@ -52,39 +54,39 @@ FlaskBlog/
 │   └── site.db
 │
 ├── run.py
-├── README.md
-└── requirements.txt
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
 ## Installation
 
-Clone the repository:
+Clone the repository
 
 ```bash
 git clone https://github.com/RoshanKumarMahaseth/FlaskBlog.git
 ```
 
-Navigate to the project:
+Navigate to the project
 
 ```bash
 cd FlaskBlog
 ```
 
-Install dependencies:
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application:
+Run the application
 
 ```bash
 python run.py
 ```
 
-Open your browser and visit:
+Open your browser
 
 ```
 http://127.0.0.1:5000
@@ -107,7 +109,7 @@ http://127.0.0.1:5000
 
 ## Learning Purpose
 
-This project is part of my backend development journey with Flask. It is continuously updated as I learn new backend concepts such as authentication, databases, ORM, authorization, deployment, and REST APIs.
+This project is part of my backend development journey with Flask. It is continuously updated as I learn new backend concepts such as authentication, databases, ORM, authorization, deployment, and REST API development.
 
 ---
 

@@ -30,5 +30,23 @@ class LoginForm(FlaskForm):
     submit = SubmitField('Login')
 
 
+class UpdateAccountForm(FlaskForm):
+    username = StringField('username', validators=[DataRequired(),Length(min=3,max=20)])
+    email = StringField('email',validators=[DataRequired(),Email()])
+    submit = SubmitField('Update')
+
+    def validate_username(self,username):
+        if username.data != current_user.username:
+            user = User.query.filter_by(username = username.data).first()
+            if user:
+                raise ValidationError('Username is Takken choose different')
+
+    def validate_email(self,email):
+        if email.data != current_user.email:
+            user = User.query.filter_by(email=email.data).first()
+            if user:
+                raise ValidationError('Email is Takken choose different')
+
+
 
 
