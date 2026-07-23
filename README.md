@@ -14,6 +14,7 @@ A beginner-friendly blog application built with **Python** and **Flask** as part
 - User Account Page
 - Update Username
 - Update Email Address
+- Update Profile Picture
 - User Authentication
 - Password Hashing with Flask-Bcrypt
 - Form Validation using Flask-WTF
