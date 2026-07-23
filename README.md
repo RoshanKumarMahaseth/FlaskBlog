@@ -44,7 +44,7 @@ A beginner-friendly blog application built with **Python** and **Flask** as part
 FlaskBlog/
 │
 ├── flaskblog/
-│   ├── static/
+│   ├── static/profile_pic
 │   ├── templates/
 │   ├── forms.py
 │   ├── models.py
