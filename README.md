@@ -12,6 +12,7 @@ A beginner-friendly blog application built with **Python** and **Flask** as part
 - Secure User Login
 - User Logout
 - User Account Page
+- User Post
 - Update Username
 - Update Email Address
 - Update Profile Picture
